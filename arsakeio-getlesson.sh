@@ -137,7 +137,7 @@ cat active_duty.html |sed -e 's,</\([^>]*\)>,\n</\1>\n,g' |sed 's/  */ /g' | sed
 
 
 echo "Sending email"
-cat lesson.html  | s-nail -s 'Vassilis Lesson' -M "text/html"  sivann@gmail.com
+#cat lesson.html  | s-nail -s 'Lesson' -M "text/html"  parent@email.com
 echo "Done"
 
 d=$(date +%FT%H%M%S)
